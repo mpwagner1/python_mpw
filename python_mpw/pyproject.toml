@@ -8,7 +8,7 @@ packages = [{include = "python_mpw"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-usersshared = { git = "git@github.com:mpwagner1/python_mpw.git", branch = "main"}
+users = { git = "git@github.com:mpwagner1/python_mpw.git", branch = "main"}
 
 [[tool.poetry.source]]
 name = "GitHub"
