@@ -10,6 +10,11 @@ packages = [{include = "python_mpw"}]
 python = "^3.10"
 usersshared = { git = "git@github.com:mpwagner1/python_mpw.git", branch = "main"}
 
+[[tool.poetry.source]]
+name = "GitHub"
+url = "https://github.com/mpwagner1/python_mpw,branch=main"
+default = false
+secondary = true
 
 [build-system]
 requires = ["poetry-core"]
