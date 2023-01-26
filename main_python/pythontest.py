@@ -9,6 +9,7 @@ y = [23,
      25
     ]
 
+
 plt.plot
 (x, y)
 plt.show()
